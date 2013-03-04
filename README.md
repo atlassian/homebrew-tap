@@ -12,7 +12,7 @@ Unfortunately, Brew (as of this writing) only supports adding Taps from Github. 
 
 However, because this Tap is hosted on Bitbucket, you won't be able to register this tap. Don't fret... you can still install Formulae installed here using this convention:
 
-    brew install https://bitbucket.org/rmanalan/homebrew-tap/raw/master/<formula>.rb
+    brew install https://bitbucket.org/atlassian/homebrew-tap/raw/master/<formula>.rb
 
 We'll work with the Brew dudes to get Bitbucket support, but in the meanwhile, you can install the formulae directly.
 
