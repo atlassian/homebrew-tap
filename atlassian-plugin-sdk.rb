@@ -18,6 +18,9 @@ class AtlassianPluginSdk < Formula
 
   def caveats
     <<-EOS.undent
+      *** Please note we have dropped support for Maven 2.x and Maven 3.0.x ***
+      Release notes can be found at https://developer.atlassian.com/display/DOCS/AMPS+SDK+5.0.0+Release+Notes
+      
       Thanks for installing the Atlassian Plugin SDK. For more information,
       visit https://developer.atlassian.com.
 
