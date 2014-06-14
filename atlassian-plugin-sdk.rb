@@ -2,7 +2,7 @@ require 'formula'
 
 class AtlassianPluginSdk < Formula
   homepage 'https://developer.atlassian.com/display/DOCS/Atlassian+Plugin+SDK+Documentation'
-  url 'http://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/amps/atlassian-plugin-sdk/5.0.2/atlassian-plugin-sdk-5.0.2.tar.gz'
+  url 'https://maven.atlassian.com/repository/public/com/atlassian/amps/atlassian-plugin-sdk/5.0.2/atlassian-plugin-sdk-5.0.2.tar.gz'
   sha1 'f61b91383ff48b9fe86813804982bc5a7805558e'
 
   def install
