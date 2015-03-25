@@ -1,9 +1,12 @@
 require 'formula'
 
+VERSION='6.0.1'
+SHA1='0e5c4391133a59f4daace4d840225e59296b13fe'
+
 class AtlassianPluginSdk < Formula
   homepage 'https://developer.atlassian.com/display/DOCS/Atlassian+Plugin+SDK+Documentation'
-  url 'https://maven.atlassian.com/repository/public/com/atlassian/amps/atlassian-plugin-sdk/5.0.13/atlassian-plugin-sdk-5.0.13.tar.gz'
-  sha1 '5bc50d7ddeae51ec3457afa6c3b0fa41f8de2a1c'
+  url "https://maven.atlassian.com/repository/public/com/atlassian/amps/atlassian-plugin-sdk/#{VERSION}/atlassian-plugin-sdk-#{VERSION}.tar.gz"
+  sha1 "#{SHA1}"
 
   def install
     # Remove windows files
@@ -19,7 +22,7 @@ class AtlassianPluginSdk < Formula
   def caveats
     <<-EOS.undent
       *** Please note we have dropped support for Maven 2.x and Maven 3.0.x ***
-      Release notes can be found at https://developer.atlassian.com/display/DOCS/AMPS+SDK+5.0.0+Release+Notes
+      Release notes can be found at https://developer.atlassian.com/display/DOCS/AMPS+SDK+#{VERSION}+Release+Notes
       
       Thanks for installing the Atlassian Plugin SDK. For more information,
       visit https://developer.atlassian.com.
