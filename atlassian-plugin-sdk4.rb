@@ -3,7 +3,7 @@ require 'formula'
 class AtlassianPluginSdk4 < Formula
   homepage 'https://developer.atlassian.com/display/DOCS/Atlassian+Plugin+SDK+Documentation'
   url 'http://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/amps/atlassian-plugin-sdk/4.2.20/atlassian-plugin-sdk-4.2.20.tar.gz'
-  sha1 '550eee313dd00483ab66c281791da60389f0ef6e'
+  sha256 '2fd4ab8ab242de84aeb9ce12566573c2397ccb11e7b5e33f9d47a5efef3d0a85'
 
   def install
     # Remove windows files
@@ -23,7 +23,7 @@ class AtlassianPluginSdk4 < Formula
 
       Further details about the latest version can be found at:
       https://developer.atlassian.com/display/DOCS/AMPS+SDK+5.0.0+Release+Notes
-      
+
       Thanks for installing the Atlassian Plugin SDK. For more information,
       visit https://developer.atlassian.com.
 
