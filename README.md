@@ -1,4 +1,4 @@
-# Atlassian Homebrew Tap
+# Atlassian Plugin SDK Homebrew Tap
 
 This repository contains a collection of [Homebrew](http://mxcl.github.com/homebrew/) (aka, Brew) "formulae" for Atlassian. Brew is a simple package manager for OS X that's based on Git.
 
@@ -19,3 +19,12 @@ Third, enjoy your new brew.
 ## Contributing Formulae
 
 If you're an Atlassian, go to town -- just make sure you follow the [Formula Cookbook](https://github.com/mxcl/homebrew/wiki/Formula-Cookbook).
+
+## Found a Bug or looking for a new Feature?
+
+You can raise bugs and feature requests for the Atlassian SDK (including the homebrew tap) at https://ecosystem.atlassian.net/projects/ATLASSDK.
+
+## Documentation
+
+The documentation for developing add-ons using the Atlassian Plugin SDK can be found at https://developer.atlassian.com.
+
