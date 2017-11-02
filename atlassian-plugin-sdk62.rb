@@ -1,9 +1,9 @@
 require 'formula'
 
-class AtlassianPluginSdk < Formula
+class AtlassianPluginSdk62 < Formula
   homepage 'https://developer.atlassian.com/display/DOCS/Atlassian+Plugin+SDK+Documentation'
-  url 'https://packages.atlassian.com/maven/repository/public/com/atlassian/amps/atlassian-plugin-sdk/6.3.4/atlassian-plugin-sdk-6.3.4.tar.gz'
-  sha256 'cc5000b078972abddf7c32f0e7f32392c35e4f71159e2db67b529a30ae012c0d'
+  url 'https://packages.atlassian.com/maven/repository/public/com/atlassian/amps/atlassian-plugin-sdk/6.2.14/atlassian-plugin-sdk-6.2.14.tar.gz'
+  sha256 '4c9e33d67106abc609807995e8909a3d46e5140ebc34104649b24ebdece0a474'
 
   def install
     # Remove windows files
