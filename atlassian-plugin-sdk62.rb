@@ -17,7 +17,7 @@ class AtlassianPluginSdk62 < Formula
   end
 
   def caveats
-    <<-EOS.undent
+    <<~EOS
       *** Please note we have dropped support for Maven 2.x and Maven 3.0.x ***
       Release notes can be found at https://developer.atlassian.com/docs/amps-sdk-release-notes/amps-sdk-6-x-and-up-release-notes
 

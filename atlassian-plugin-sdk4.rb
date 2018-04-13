@@ -17,7 +17,7 @@ class AtlassianPluginSdk4 < Formula
   end
 
   def caveats
-    <<-EOS.undent
+    <<~EOS
       *** Please note that version 4.x of the SDK is provided only for legacy purposes ***
       **** It is recommended that you upgrade to a newer version unless you have a specifc need to use Maven 2.x or 3.0.x ***
 
