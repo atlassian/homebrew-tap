@@ -17,7 +17,7 @@ class AtlassianPluginSdk5 < Formula
   end
 
   def caveats
-    <<-EOS.undent
+    <<~EOS
       *** Please note that version 5.x of the SDK is provided only for legacy purposes ***
       **** It is recommended that you upgrade to a newer version unless you have a specifc need to use Oracle Java JDK 7 ***
 
