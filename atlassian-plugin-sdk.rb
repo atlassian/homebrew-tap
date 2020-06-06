@@ -1,9 +1,11 @@
 require 'formula'
 
 class AtlassianPluginSdk < Formula
-  homepage 'https://developer.atlassian.com/display/DOCS/Atlassian+Plugin+SDK+Documentation'
-  url 'https://packages.atlassian.com/maven/public/com/atlassian/amps/atlassian-plugin-sdk/8.0.16/atlassian-plugin-sdk-8.0.16.tar.gz'
-  sha256 'a0594d1e7adca41ca740524f189fd66c94ba2e74a1025d0c0193e977df628876'
+  desc "Atlassian Plugin SDK"
+  homepage "https://developer.atlassian.com/display/DOCS/Atlassian+Plugin+SDK+Documentation"
+  url "https://packages.atlassian.com/maven/public/com/atlassian/amps/atlassian-plugin-sdk/8.2.2/atlassian-plugin-sdk-8.2.2.tar.gz"
+  sha256 "a99fa410296b7f4e364eef22df25e715d96db8f272ed63206fc872a009112401"
+  version "8.2.2"
 
   def install
     # Remove windows files
@@ -18,17 +20,11 @@ class AtlassianPluginSdk < Formula
 
   def caveats
     <<~EOS
-      *** Please note we have dropped support for Maven 2.x and Maven 3.0.x ***
-      Release notes can be found at https://developer.atlassian.com/docs/amps-sdk-release-notes/amps-sdk-6-x-and-up-release-notes
-
       Thanks for installing the Atlassian Plugin SDK. For more information,
-      visit https://developer.atlassian.com.
-
-      To create a plugin skeleton using atlas-create-APPLICATION-plugin, e.g.:
-        atlas-create-jira-plugin or atlas-create-confluence-plugin
-
-      To run your plugin's host application with the plugin skeleton installed:
-        atlas-run
+      visit https://developer.atlassian.com.    
+        
+      Release Notes can be found here:
+      https://developer.atlassian.com/server/framework/atlassian-sdk/amps-sdk-release-notes/
     EOS
   end
 end
