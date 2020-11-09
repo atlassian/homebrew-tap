@@ -22,10 +22,16 @@ class AtlassianPluginSdk < Formula
   def caveats
     <<~EOS
       Thanks for installing the Atlassian Plugin SDK. For more information,
-      visit https://developer.atlassian.com.    
-        
+      visit https://developer.atlassian.com.
+
       Release Notes can be found here:
-      https://developer.atlassian.com/server/framework/atlassian-sdk/amps-sdk-release-notes/
+      https://developer.atlassian.com/docs/amps-sdk-release-notes/amps-sdk-6-x-and-up-release-notes
+
+      To create a plugin skeleton using atlas-create-APPLICATION-plugin, e.g.:
+        atlas-create-jira-plugin or atlas-create-confluence-plugin
+
+      To run your plugin's host application with the plugin skeleton installed:
+        atlas-run
     EOS
   end
 
