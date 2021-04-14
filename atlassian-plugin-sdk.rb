@@ -5,8 +5,8 @@
 class AtlassianPluginSdk < Formula
   desc "Set of tools and dependencies for plugins on Atlassian server applications"
   homepage "https://developer.atlassian.com/display/DOCS/Atlassian+Plugin+SDK+Documentation"
-  url "https://packages.atlassian.com/maven/public/com/atlassian/amps/atlassian-plugin-sdk/8.2.6/atlassian-plugin-sdk-8.2.6.tar.gz"
-  sha256 "9423d0e27cbe81b16fc9909fc3ce1b1d784d44db567ad3c051974b2273a0f644"
+  url "https://packages.atlassian.com/maven/public/com/atlassian/amps/atlassian-plugin-sdk/8.2.7/atlassian-plugin-sdk-8.2.7.tar.gz"
+  sha256 "77eb7ba604921042642f1d3a93b17f7e4dada572ca1ae12d5a2696ceee960f76"
 
   def install
     # Remove windows files
