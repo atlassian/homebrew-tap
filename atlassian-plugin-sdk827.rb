@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 # Atlassian Plugin SDK formula
-class AtlassianPluginSdk < Formula
+class AtlassianPluginSdk827 < Formula
   desc "Set of tools and dependencies for plugins on Atlassian server applications"
   homepage "https://developer.atlassian.com/display/DOCS/Atlassian+Plugin+SDK+Documentation"
   url "https://packages.atlassian.com/maven/public/com/atlassian/amps/atlassian-plugin-sdk/8.2.7/atlassian-plugin-sdk-8.2.7.tar.gz"
