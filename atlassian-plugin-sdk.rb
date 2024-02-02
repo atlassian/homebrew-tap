@@ -25,7 +25,7 @@ class AtlassianPluginSdk < Formula
       visit https://developer.atlassian.com.
 
       Release Notes can be found here:
-      https://developer.atlassian.com/docs/amps-sdk-release-notes/amps-sdk-6-x-and-up-release-notes
+      https://developer.atlassian.com/server/framework/atlassian-sdk/amps-sdk-release-notes
 
       To create a plugin skeleton using atlas-create-APPLICATION-plugin, e.g.:
         atlas-create-jira-plugin or atlas-create-confluence-plugin
