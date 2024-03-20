@@ -5,7 +5,7 @@
 class AtlassianPluginSdk < Formula
   desc "Set of tools and dependencies for plugins on Atlassian server applications"
   homepage "https://developer.atlassian.com/display/DOCS/Atlassian+Plugin+SDK+Documentation"
-  url "https://packages.atlassian.com/mvn/maven-external/com/atlassian/amps/atlassian-plugin-sdk/8.2.9/atlassian-plugin-sdk-8.2.9.tar.gz"
+  url "https://packages.atlassian.com/mvn/maven-external/com/atlassian/amps/atlassian-plugin-sdk/8.2.10/atlassian-plugin-sdk-8.2.10.tar.gz"
   sha256 "0e64fc8a2f823342f21b1805ae3ca8b4ed4945990d876a78f49f6835ce09ddbe"
 
   def install
